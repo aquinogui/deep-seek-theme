@@ -1,0 +1,22 @@
+{
+    "name": "deepseek-theme",
+    "displayName": "DeepSeek Theme",
+    "description": "A dark theme inspired by DeepSeek colors.",
+    "version": "1.0.0",
+    "publisher": "https://github.com/aquinogui",
+    "engines": {
+      "vscode": "^1.75.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "DeepSeek Theme",
+          "uiTheme": "vs-dark",
+          "path": "./theme.json"
+        }
+      ]
+    }
+  }
