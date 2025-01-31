@@ -2,7 +2,7 @@
   "name": "deepseek-theme",
   "displayName": "Deep Seek Theme By Aquinogui",
   "description": "A dark theme inspired by DeepSeek colors, optimized for readability and productivity.",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "publisher": "Aquinogui",
   "icon": "images/deep.png",
   "engines": {
