@@ -2,7 +2,7 @@
 
 Um tema escuro moderno e elegante para o Visual Studio Code, inspirado no DeepSeek. Projetado para melhorar sua experiência de programação com foco na legibilidade e estética.
 
-![Capa do Projeto](capa.png)
+![Capa do Projeto](images/capa.png)
 
 
 ---
