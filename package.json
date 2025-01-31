@@ -2,7 +2,7 @@
   "name": "deepseek-theme",
   "displayName": "Deep Seek Inspired Theme By Aquinogui",
   "description": "A dark theme inspired by DeepSeek colors, optimized for readability and productivity.",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "publisher": "Aquinogui",
   "icon": "images/deep.png",
   "engines": {
@@ -13,6 +13,22 @@
   ],
   "files": [
     "images/capa.png"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aquinogui/deep-seek-theme/raw/main/images/capa.png"
+  },
+  "keywords": [
+    "dark",
+    "ai",
+    "deepseek",
+    "chatgpt",
+    "vscode extension",
+    "theme",
+    "vscode extension",
+    "tema",
+    "brasil",
+    "ia"
   ],
   "contributes": {
     "themes": [
