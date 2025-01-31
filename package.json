@@ -1,22 +1,78 @@
 {
-    "name": "deepseek-theme",
-    "displayName": "DeepSeek Theme",
-    "description": "A dark theme inspired by DeepSeek colors.",
-    "version": "1.0.0",
-    "publisher": "https://github.com/aquinogui",
-    "engines": {
-      "vscode": "^1.75.0"
-    },
-    "categories": [
-      "Themes"
+  "name": "deepseek-theme",
+  "displayName": "Deep Seek Theme By Aquinogui",
+  "description": "A dark theme inspired by DeepSeek colors, optimized for readability and productivity.",
+  "version": "3.5.0",
+  "publisher": "Aquinogui",
+  "icon": "images/deep.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DeepSeek Theme",
+        "uiTheme": "vs-dark",
+        "path": "deepseek-theme.json"
+      }
     ],
-    "contributes": {
-      "themes": [
-        {
-          "label": "DeepSeek Theme",
-          "uiTheme": "vs-dark",
-          "path": "./theme.json"
+    "configuration": {
+      "title": "DeepSeek Theme",
+      "properties": {
+        "editor.fontFamily": {
+          "type": "string",
+          "default": "'Fira Code', 'Consolas', 'Courier New', monospace",
+          "description": "Configura a família de fontes do editor."
+        },
+        "editor.fontSize": {
+          "type": "number",
+          "default": 13,
+          "description": "Configura o tamanho da fonte do editor."
+        },
+        "editor.fontLigatures": {
+          "type": "boolean",
+          "default": true,
+          "description": "Habilita ligaduras de fontes (se suportado)."
+        },
+        "editor.lineHeight": {
+          "type": "number",
+          "default": 20,
+          "description": "Configura a altura da linha do editor."
+        },
+        "editor.tabSize": {
+          "type": "number",
+          "default": 2,
+          "description": "Configura o tamanho do tab (espaços)."
+        },
+        "editor.wordWrap": {
+          "type": "string",
+          "default": "on",
+          "description": "Habilita a quebra de linha no editor."
+        },
+        "editor.renderWhitespace": {
+          "type": "string",
+          "default": "boundary",
+          "description": "Mostra espaços em branco no editor."
+        },
+        "editor.minimap.enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "Habilita ou desabilita o minimapa."
+        },
+        "editor.bracketPairColorization.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Habilita a colorização de pares de colchetes."
+        },
+        "editor.guides.bracketPairs": {
+          "type": "boolean",
+          "default": true,
+          "description": "Habilita guias para pares de colchetes."
         }
-      ]
+      }
     }
   }
+}

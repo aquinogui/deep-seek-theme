@@ -2,7 +2,6 @@
 
 Um tema escuro moderno e elegante para o Visual Studio Code, inspirado no DeepSeek. Projetado para melhorar sua experiência de programação com foco na legibilidade e estética.
 
-![Preview](preview.png) <!-- Adicione uma imagem de preview do tema aqui -->
 
 ---
 
@@ -59,7 +58,7 @@ Para uma melhor experiência, recomendamos usar as seguintes configurações no 
 
 ```json
 {
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
   "editor.lineHeight": 24,
   "editor.tabSize": 2,
